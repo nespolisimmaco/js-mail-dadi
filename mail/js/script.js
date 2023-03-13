@@ -36,7 +36,16 @@ submitButton.addEventListener ("click", function () {
 
     // Stampo un messaggio sull'esito del controllo
     // SE isFound = true 
-    // l'email è autorizzata
+    //  l'email è autorizzata
     // ALTRIMENTI
-    // l'email non è autorizzata
+    //  l'email non è autorizzata
+    if (isFound === true) {
+        console.log("Email autorizzata");
+        document.getElementById("message").innerHTML = "Email autorizzata";
+    } else {
+        console.log("Email non autorizzata");
+        document.getElementById("message").innerHTML = "Email non autorizzata";
+    }
+    // Ripristino il Flag
+    isFound = false;
 })
