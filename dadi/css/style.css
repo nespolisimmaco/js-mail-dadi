@@ -1,0 +1,37 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL */
+body {
+    background-color: #ACCBE1;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    border: 5px dashed #2F3061;
+    padding: 3rem;
+    margin-top: 3rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+#result,
+.player,
+.computer {
+    text-align: center;
+}
+
+#player-result,
+#computer-result {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}

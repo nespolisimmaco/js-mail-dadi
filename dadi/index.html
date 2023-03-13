@@ -5,9 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gioco dei dadi</title>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <!-- Container -->
+    <div class="container">
+        <!-- Flexbox -->
+        <div class="flex">
+            <!-- Player -->
+            <div class="player">
+                <i class="fa-solid fa-user fa-3x"></i>
+                <div id="player-result"></div>
+            </div>
+            <!-- Computer -->
+            <div class="computer">
+                <i class="fa-solid fa-desktop fa-3x"></i>
+                <div id="computer-result"></div>
+            </div>
+        </div>
+        <!-- End Flexbox -->
+        <!-- Result -->
+        <h1 id="result"></h1>
+    </div>
+    <!-- End Container -->
     <script src="js/script.js"></script>
 </body>
 </html>
